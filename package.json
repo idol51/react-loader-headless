@@ -1,0 +1,19 @@
+{
+  "name": "react-loader-headless",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/idol51/react-loader-headless.git"
+  },
+  "author": "idol51",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/idol51/react-loader-headless/issues"
+  },
+  "homepage": "https://github.com/idol51/react-loader-headless#readme"
+}
