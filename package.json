@@ -1,7 +1,7 @@
 {
   "name": "react-loader-headless",
   "version": "1.0.4",
-  "description": "",
+  "description": "A light-weight global loader context provider library for React JS.",
   "main": "index.tsx",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
