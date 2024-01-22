@@ -76,4 +76,3 @@ Use the useLoader hook to access the props.
 ## Appendix
 
 Any additional information goes here
-
