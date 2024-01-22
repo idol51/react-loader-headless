@@ -1,1 +1,27 @@
-/node_modules
+# Files and directories to be ignored when publishing to npm
+
+# Development and test files
+__tests__
+*.spec.js
+*.test.js
+test/
+tests/
+
+# Version control files
+.git
+.gitignore
+
+# Configuration files
+.eslintignore
+.eslintrc
+.prettierignore
+.prettierrc
+.editorconfig
+
+# Build files
+dist/
+build/
+
+# Other unnecessary files
+node_modules/
+*.log
