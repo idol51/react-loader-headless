@@ -1,4 +1,4 @@
-import { ReactNode, createContext, useContext, useReducer } from "react"
+import React, { ReactNode, createContext, useContext, useReducer } from "react"
 
 // --- available loader action types --- //
 enum LoaderActionType {

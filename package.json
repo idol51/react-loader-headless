@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/idol51/react-loader-headless/issues"
   },
-  "homepage": "https://github.com/idol51/react-loader-headless#readme"
+  "homepage": "https://github.com/idol51/react-loader-headless#readme",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
 }
