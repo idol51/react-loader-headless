@@ -24,7 +24,7 @@ Install react-loader-headless with yarn
 
 Add Loader Provider in the entry file of your project.
 
-```http
+```jsx
   import { LoaderProvider } from 'react-loader-headless'
 
   <LoaderProvider>
@@ -36,7 +36,7 @@ Add Loader Provider in the entry file of your project.
 
 Use the useLoader hook to access the props.
 
-```http
+```jsx
   import { useLoader } from 'react-loader-headless'
 
   const { loading, loaderMessages, startLoader, stopLoader } = useLoader();
@@ -52,7 +52,7 @@ Use the useLoader hook to access the props.
 
 #### Example
 
-```http
+```jsx
   startLoader("Hello", "World", ...)    // loading = true and loaderMessages = ["Hello", "World", ...]
 
   stopLoader()    // loading = false and loaderMessages = [""]
