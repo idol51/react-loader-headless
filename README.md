@@ -55,7 +55,7 @@ Use the useLoader hook to access the props.
 ```jsx
   startLoader("Hello", "World", ...)    // loading = true and loaderMessages = ["Hello", "World", ...]
 
-  stopLoader()    // loading = false and loaderMessages = [""]
+  stopLoader()    // loading = false and loaderMessages = []
 ```
 
 

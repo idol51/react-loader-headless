@@ -41,7 +41,7 @@ interface ILoaderContext {
 // --- loader context created --- // 
 const LoaderContext = createContext<ILoaderContext>({
   loading: false,
-  loaderMessages: ["Resolving Issues..."],
+  loaderMessages: [],
   startLoader: () => {},
   stopLoader: () => {}
 })
@@ -53,7 +53,7 @@ const LoaderReducer = (state: ILoaderState, action: ILoaderAction) => {
       return { loading: true, message: action.payload }
       // return { loading: false, message: action.payload }
     case LoaderActionType.FINISH:
-      return { loading: false, message: [""] }
+      return { loading: false, message: [] }
     default:
       return state
   }
@@ -61,7 +61,7 @@ const LoaderReducer = (state: ILoaderState, action: ILoaderAction) => {
 
 // --- loader provider created --- //
 export function LoaderProvider({ children }: { children: ReactNode }) {
-    const [ state, dispatch ] = useReducer(LoaderReducer, { loading: false, message: ["Resolving Issues..."] })
+    const [ state, dispatch ] = useReducer(LoaderReducer, { loading: false, message: [] })
 
     const startLoader = (...args: string[]) => {
       dispatch({ type: LoaderActionType.START, payload: args })
